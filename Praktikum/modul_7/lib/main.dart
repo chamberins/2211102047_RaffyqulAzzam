@@ -45,6 +45,7 @@ class _MyAppState extends State<MyApp> {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ButtonTheme(
               minWidth: 250.0,
@@ -53,7 +54,7 @@ class _MyAppState extends State<MyApp> {
                   backgroundColor: Colors.blueAccent,
                 ),
                 onPressed: showNotification,
-                child: Text('showNotification'),
+                child: Text('Show Notification'),
               ),
             ),
           ],
@@ -83,6 +84,9 @@ class NewScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(payload),
+      ),
+      body: Center(
+        child: Text('New Screen'),
       ),
     );
   }
