@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'tutorial_11-2.dart';
-import 'main.dart';
 
 void main() {
   runApp(const MyApp11_1());
